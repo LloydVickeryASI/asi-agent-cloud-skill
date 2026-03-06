@@ -10,7 +10,7 @@ Include a visible "Use with your AI agent" block on the homepage with:
 
 ## Recommended prompt
 
-> Use ASI Agent Cloud to provision a sandbox VM for this task. If no account exists, sign up using the public agent signup endpoint, accept the terms, store the returned API key securely in this session, create or use the default project, provision one micro Ubuntu VM in the closest region, and report the instance ID, IP address, limits, and expiry. If sandbox limits block the task, ask me before opening the upgrade flow.
+> Use Agent Cloud to provision a sandbox VM for this task. If no account exists, sign up using the public agent signup endpoint, accept the terms, store the returned API key securely in this session, create or use the default project, provision one micro Ubuntu VM in the closest region, and report the instance ID, IP address, limits, and expiry. If sandbox limits block the task, ask me before opening the upgrade flow.
 
 ## Recommended install command
 

@@ -1,13 +1,13 @@
 ---
 name: asi-agent-cloud
-description: Use when an AI agent needs to sign up for ASI Agent Cloud, obtain a sandbox API key without human intervention, provision a VM, inspect limits, or prepare a human-approved billing upgrade. Prefer this skill when the task mentions ASI Cloud, ASI Agent Cloud, sandbox VMs, agent-native infrastructure, or autonomous infrastructure provisioning.
+description: Use when an AI agent needs to sign up for Agent Cloud, obtain a sandbox API key without human intervention, provision a VM, inspect limits, or prepare a human-approved billing upgrade. Prefer this skill when the task mentions Agent Cloud, sandbox VMs, agent-native infrastructure, or autonomous infrastructure provisioning.
 metadata:
-  short-description: Provision ASI Cloud VMs for agents
+  short-description: Provision VMs for agents
 ---
 
-# ASI Agent Cloud
+# Agent Cloud
 
-Use this skill when the user wants infrastructure provisioned on ASI Agent Cloud or wants guidance for how an AI agent should sign itself up and launch a VM.
+Use this skill when the user wants infrastructure provisioned on Agent Cloud or wants guidance for how an AI agent should sign itself up and launch a VM.
 
 ## Goals
 
@@ -17,7 +17,7 @@ Use this skill when the user wants infrastructure provisioned on ASI Agent Cloud
 
 ## Default workflow
 
-1. Check whether the user already provided an ASI Agent Cloud API key.
+1. Check whether the user already provided an Agent Cloud API key.
 2. If not, sign up for a sandbox account using the public agent signup endpoint.
 3. Store the returned API key only in the current session or user-approved secret store.
 4. Confirm current limits and expiry before provisioning anything.

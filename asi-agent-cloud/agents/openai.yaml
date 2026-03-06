@@ -1,7 +1,7 @@
 interface:
-  display_name: "ASI Agent Cloud"
-  short_description: "Sign up and provision ASI Cloud VMs"
-  default_prompt: "Use $asi-agent-cloud to sign up for ASI Agent Cloud sandbox access and provision a small VM without triggering billing."
+  display_name: "Agent Cloud"
+  short_description: "Sign up and provision agent VMs"
+  default_prompt: "Use $asi-agent-cloud to sign up for Agent Cloud sandbox access and provision a small VM without triggering billing."
 
 policy:
   allow_implicit_invocation: true

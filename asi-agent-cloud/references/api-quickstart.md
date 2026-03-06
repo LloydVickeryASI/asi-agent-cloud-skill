@@ -1,4 +1,4 @@
-# ASI Agent Cloud API Quickstart
+# Agent Cloud API Quickstart
 
 ## Signup
 

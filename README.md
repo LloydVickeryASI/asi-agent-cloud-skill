@@ -1,6 +1,6 @@
-# ASI Agent Cloud Skill
+# Agent Cloud Skill
 
-Installable skill for ASI Agent Cloud sandbox signup and VM provisioning.
+Installable skill for Agent Cloud sandbox signup and VM provisioning.
 
 ## Install
 
